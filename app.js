@@ -4,6 +4,10 @@ let price = ['221', '157', '95']
 
 var swiper = new Swiper(".mySwiper", {
     direction: 'vertical',
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
     slidesPerView: 1,
     spaceBetween: 30,
     mousewheel: true,
@@ -11,8 +15,8 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
         renderBullet: function (index, className) {
-            return '<p class="' + className + '">' + ('#0' + (count[index])) + '<span>' + (art[index]) + '</span>' +
-                '<span>' + (price[index] + ' ' + 'ETH') + '</span>' + "</p>";
+            return '<p class="' + className + '">' + ('#0' + (count[index])) + '<span class="pagination-art">' + (art[index]) + '</span>' +
+                '<span class="pagination-price">' + '<span>' + (price[index] + '</span>' + ' ETH') + '</span>' + "</p>";
         },
     },
 });

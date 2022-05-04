@@ -1,48 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Auxpo</title>
-</head>
-<body>
-    <div class="content">
-        <div class="content-sidebar">
-            <button class="content-sidebar__button"></button>
-            <ul class="content-sidebar__list">
-                <li class="content-sidebar__item"><a class="content-sidebar__link content-sidebar__fb" target="_blank" href="#"></a></li>
-                <li class="content-sidebar__item"><a class="content-sidebar__link content-sidebar__inst" target="_blank" href="#"></a></li>
-                <li class="content-sidebar__item"><a class="content-sidebar__link content-sidebar__twit" target="_blank" href="#"></a></li>
-            </ul>
-        </div>
-        <header class="content-header">
-            <a href="" class="content-header__logo"></a>
-            <nav>
-                <ul class="content-header__list">
-                    <li class="content-header__item"><a class="content-header__link active" href="#">Home</a></li>
-                    <li class="content-header__item"><a class="content-header__link" href="#">Roadmap</a></li>
-                    <li class="content-header__item"><a class="content-header__link" href="#">About us</a></li>
-                    <li class="content-header__item"><a class="content-header__link wallet" href="#"></a></li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/normalize.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/media.css" />
+        <title>Auxpo</title>
+    </head>
+    <body>
+        <div class="content">
+            <div class="content-sidebar">
+                <button class="content-sidebar__button"></button>
+                <ul class="content-sidebar__list">
+                    <li class="content-sidebar__item">
+                        <a
+                            class="content-sidebar__link content-sidebar__fb"
+                            target="_blank"
+                            href="#"
+                        ></a>
+                    </li>
+                    <li class="content-sidebar__item">
+                        <a
+                            class="content-sidebar__link content-sidebar__inst"
+                            target="_blank"
+                            href="#"
+                        ></a>
+                    </li>
+                    <li class="content-sidebar__item">
+                        <a
+                            class="content-sidebar__link content-sidebar__twit"
+                            target="_blank"
+                            href="#"
+                        ></a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <mail class="content-main">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">Slide 1</div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>  
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-        </mail>
-    </div>
+            </div>
+            <header class="content-header">
+                <a href="" class="content-header__logo"></a>
+                <nav>
+                    <ul class="content-header__list">
+                        <li class="content-header__item">
+                            <a class="content-header__link active" href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="content-header__item">
+                            <a class="content-header__link" href="#">Roadmap</a>
+                        </li>
+                        <li class="content-header__item">
+                            <a class="content-header__link" href="#"
+                                >About us</a
+                            >
+                        </li>
+                        <li class="content-header__item">
+                            <a class="content-header__link wallet" href="#"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <mail class="content-main">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-body">
+                                <img class="swiper-slide__image" src="images/art/art01.png" alt="art">
+                                <h2 class="swiper-body__title">Win <span>3D printed</span> <br> miniature model</h2>
+                                <p class="swiper-body__desc">Bid now to avail these models and many other rewards on exclusive pieces.</p>
+                                <div class="swiper-body__buttons">
+                                    <a href="#"  class="swiper-body__btn swiper-body__buy">Buy Now</a>
+                                    <a href="#"  class="swiper-body__btn swiper-body__view">View NFT</a>
+                                </div>
+                                
+                            </div>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="app.js"></script>
-</body>
+                            <div class="swiper-footer">
+                                <div class="swiper-info">
+                                    <p class="swiper-info__author">
+                                        Maria Roman Generative
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Token ID<span>AUXPO#66156</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Creator<span>Enzo Tribbiani</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Base Price<span>46 ETH</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Limit<span>5 per wallet</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Mint Date<span>5th March 2022</span>
+                                    </p>
+                                </div>
+                                <div class="swiper-cover">
+                                    <img
+                                        class="swiper-cover__img"
+                                        src="images/cover/cover.jpg"
+                                        alt="art"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-body">
+                                <!-- <img class="swiper-slide__image" src="images/art/art02.png" alt="art"> -->
+                                <h2 class="swiper-body__title">Win <span>3D printed</span> <br> miniature model</h2>
+                                <p class="swiper-body__desc">Bid now to avail these models and many other rewards on exclusive pieces.</p>
+                                <div class="swiper-body__buttons">
+                                    <a href="#"  class="swiper-body__btn swiper-body__buy">Buy Now</a>
+                                    <a href="#"  class="swiper-body__btn swiper-body__view">View NFT</a>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-footer">
+                                <div class="swiper-info">
+                                    <p class="swiper-info__author">
+                                        Maria Roman Generative
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Token ID<span>AUXPO#66156</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Creator<span>Enzo Tribbiani</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Base Price<span>46 ETH</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Limit<span>5 per wallet</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Mint Date<span>5th March 2022</span>
+                                    </p>
+                                </div>
+                                <div class="swiper-cover">
+                                    <img
+                                        class="swiper-cover__img"
+                                        src="images/cover/cover2.jpg"
+                                        alt="art"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-body">
+                                <!-- <img class="swiper-slide__image" src="images/art/art03.png" alt="art"> -->
+                                <h2 class="swiper-body__title">Win <span>3D printed</span> <br> miniature model</h2>
+                                <p class="swiper-body__desc">Bid now to avail these models and many other rewards on exclusive pieces.</p>
+                                <div class="swiper-body__buttons">
+                                    <a href="#"  class="swiper-body__btn swiper-body__buy">Buy Now</a>
+                                    <a href="#"  class="swiper-body__btn swiper-body__view">View NFT</a>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-footer">
+                                <div class="swiper-info">
+                                    <p class="swiper-info__author">
+                                        Maria Roman Generative
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Token ID<span>AUXPO#66156</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Creator<span>Enzo Tribbiani</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Base Price<span>46 ETH</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Limit<span>5 per wallet</span>
+                                    </p>
+                                    <p class="swiper-info__item">
+                                        Mint Date<span>5th March 2022</span>
+                                    </p>
+                                </div>
+                                <div class="swiper-cover">
+                                    <img
+                                        class="swiper-cover__img"
+                                        src="images/cover/cover3.jpg"
+                                        alt="art"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </mail>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="app.js"></script>
+    </body>
 </html>
